@@ -7,7 +7,7 @@ import Particle from "../Particle";
 // import editor from "../../Assets/Projects/codeEditor.png";
 import CallCenterService from "../../Assets/Projects/CallCenterService.png";
 // import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+import Portfolio from "../../Assets/Projects/Portfolio.png";
 
 function Projects() {
   return (
@@ -32,16 +32,16 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Portfolio}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Portfolio"
+              description="Developed a personal portfolio website using React.js, showcasing skills in web development, UI/UX design, and data science. Designed for a modern user experience with responsive layouts using MUI, Bootstrap, and Tailwind CSS. Backend powered by Node.js and MongoDB for efficient data management. Highlighted projects and skills to demonstrate expertise in frontend and backend technologies."
+              ghLink="https://github.com/MadhupriyaJ/Portfolio/tree/master"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
-          </Col> */}
+          </Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
