@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="CallCenterService"
               description="Developed a system for real-time audio to text conversion, sentiment analysis, translation, and summarization of call center conversations. This project improved customer service by providing real-time insights, enabled multilingual support, and automated data processing for quicker decision-making. Technologies used included Python, Node.js, Azure Cognitive Services, MongoDB, and React.js. "
-              ghLink=""
+              ghLink="https://github.com/MadhupriyaJ/callcenteranalyticswithAzureClient"
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
